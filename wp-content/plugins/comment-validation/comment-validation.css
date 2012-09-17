@@ -1,0 +1,9 @@
+#commentform input.error, #commentform textarea.error {
+	border: solid red 1px;
+}
+#commentform div.error, #commentform label.error {
+	color: red;
+}
+#commentform div.errorlabels label {
+	display: block;
+}

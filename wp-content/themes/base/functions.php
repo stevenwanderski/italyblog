@@ -88,7 +88,7 @@
 				$first_page_text = "&laquo;";
 				echo '<a href="'.get_pagenum_link().'" title="'.$first_page_text.'" class="number">'.$first_page_text.'</a>';
 			}
-			//previous_posts_link('&lt;');
+			previous_posts_link('&lt;');
 			for($i = $start_page; $i  <= $end_page; $i++) {
 				if($i == $paged) {
 					echo ' <span class="number current">'.$i.'</span> ';
@@ -96,7 +96,7 @@
 					echo ' <a href="'.get_pagenum_link($i).'" class="number">'.$i.'</a> ';
 				}
 			}
-			//next_posts_link('&gt;');
+			next_posts_link('&gt;');
 			if ($end_page < $max_page) {
 				$last_page_text = "&raquo;";
 				echo '<a href="'.get_pagenum_link($max_page).'" title="'.$last_page_text.'" class="number">'.$last_page_text.'</a>';

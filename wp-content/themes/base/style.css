@@ -688,19 +688,16 @@ PAGE NAVIGATION
 	min-width: 24px;
 	min-height: 18px;
 	text-align: center;
-	-webkit-border-radius: 10em;
-	-moz-border-radius: 10em;
-	border-radius: 10em;
 }
-.pagenav a {
-	background: #111;
-	color: #fff;
-	text-decoration: none;
+/*.pagenav a {
+  background: #111;
+  color: #fff;
+  text-decoration: none;
 }
 .pagenav a:hover {
-	background-color: #000;
+  background-color: #000;
 }
-.pagenav .current {
+*/.pagenav .current {
 	text-decoration: none;
 }
 
