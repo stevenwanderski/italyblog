@@ -56,5 +56,10 @@ jQuery(document).ready(function($){
 		$("#header #main-nav").hide();
 		$(this).toggleClass("active");
 	});
+	
+	$('a[rel^="lightbox"]').each(function(index) {
+	  $(this).attr('rel', 'lightbox[' + $(this).parents('.gallery').attr('id') + ']');
+	});
+	
 
 });
